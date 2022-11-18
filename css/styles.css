@@ -1,6 +1,4 @@
 :root {
-    --logo-font: 'Raleway', sans-serif;
-    --main-font: 'Roboto', sans-serif;
     --brand-color: #2196f3;
     --main-color: #212121;
     --background-gray-color: #2f303a;
@@ -17,7 +15,7 @@ body {
 /*logo*/
 
 .logo {
-    font-family: var(--logo-font);
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1, 2;
@@ -39,22 +37,27 @@ body {
 .navigation,
 .contacts-header {
     list-style-type: none;
-    font-family: var(--main-font);
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1, 15;
+    line-height: 1.15;
     letter-spacing: 0.02em;
 }
 
-.link {
-    text-decoration: none;
-    color: var(--main-color);
-}
-
 /*header contacts*/
-.contact {
+.contacts-header a {
     text-decoration: none;
     color: var(--main-gray-color);
+}
+
+.contacts-header a:hover,
+.contacts-header a:focus{
+    color:var(--brand-color);
 }
 
 /*hero*/
@@ -63,10 +66,9 @@ body {
 }
 
 .header-main {
-    font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1, 36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -74,11 +76,9 @@ body {
 }
 
 .button-service {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
-    font-style: bold;
-    line-height: 1, 9;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--brand-color);
@@ -97,10 +97,9 @@ body {
 }
 
 .feature-title {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1, 14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
@@ -108,9 +107,8 @@ body {
 }
 
 .feature-text {
-    font-family: var(--main-font);
     font-size: 14px;
-    line-height: 1, 71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-gray-color);
 }
@@ -118,10 +116,9 @@ body {
 /*about-us*/
 
 .title {
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1, 17;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -141,15 +138,15 @@ body {
     font-family: Roboto;
     font-style: Regular;
     font-size: 14px;
-    line-height: 1, 71;
+    line-height: 1.71;
 }
 
 .links-footer {
     list-style-type: none;
 }
 
-.link:hover,
-.link:focus,
+.navigation a:hover,
+.navigation a:focus,
 .link-footer:hover,
 .link-footer:focus {
     color: var(--brand-color);
