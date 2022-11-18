@@ -4,55 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+     <title>Main page</title>
   </head>
   <body>
+    <!--header-->
     <header>
-      <a href="#">WebStudio</a>
+      <a class="logo" href="index.html"
+        >Web<span class="logo-studio-black">Studio</span></a
+      >
+      <!--navigation-->
       <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+        <ul class="navigation">
+          <li><a href="index.html" class="link">Agencja</a></li>
+          <li><a href="/portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="#contacts" class="link">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <!--header-contacts-->
+      <ul class="contacts-header">
+     <li> <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="link contact" href="tel:+48111111111">+48 111 111 111</a> </li></ul>
     </header>
     <main>
       <!--HERO-->
-      <section>
-        <div>
-          <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button">Zamów usługe</button>
+      <section >
+        <div class="hero">
+          <h1 class="header-main">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button-service" type="button">Zamów usługe</button>
         </div>
       </section>
-      <section>
-        <ul>
+
+      <!--features-->
+      <section class="features">
+        <ul class="features-list">
           <li>
-            <span>LOREM IPSUM</span>
-            <p>
+            <span class="feature-title">LOREM IPSUM</span>
+            <p class="feature-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <span>LOREM IPSUM</span>
-            <p>
+            <span class="feature-title">LOREM IPSUM</span>
+            <p class= "feature-text" >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <span>LOREM IPSUM</span>
-            <p>
+            <span class="feature-title">LOREM IPSUM</span>
+            <p class="feature-text" >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <span>LOREM IPSUM</span>
-            <p>
+            <span class="feature-title">LOREM IPSUM</span>
+            <p class="feature-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -61,9 +76,9 @@
       </section>
       <!--O NAS-->
       <section>
-        <div>
-          <h2>Czym się zajmujemy</h2>
-          <ul>
+        <div class="about-us">
+          <h2 class="title">Czym się zajmujemy</h2>
+          <ul class="about-us-list">
             <li>
               <img
                 src="images/about_us_img(1).jpg"
@@ -92,9 +107,9 @@
         </div>
       </section>
       <!--NASZ ZESPÓŁ-->
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+      <section class="our-team">
+        <h2 class="title">Nasz zespół</h2>
+        <ul class="team-people">
           <li>
             <img
               src="images/our_team_img(1).jpg"
@@ -138,17 +153,20 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">WebStudio</a>
+    <!--footer-->
+    <footer class="contacts">
+      <a class="logo" href="index.html"
+        >Web<span class="logo-studio-white">Studio</span></a
+      >
       <address>
-        <ul>
+        <ul class="links-footer">
           <li>
-            <a href="https://goo.gl/maps/8idBE2b1yMuSsfuq6" target="_blank"
+            <a class="link-footer" href="https://goo.gl/maps/8idBE2b1yMuSsfuq6" target="_blank"
               >Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li><a class="link-footer" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="link-footer" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>
