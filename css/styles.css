@@ -188,9 +188,19 @@ body {
 
 /*portfolio*/
 
-.buttons{
+.buttons {
     list-style-type: none;
     cursor: pointer;
     font-size: 16px;
     line-height: 1.6;
+    color:var(--brand-color);
+}
+
+.buttons :focus,
+.buttons :hover{
+color:var(--brand-color);
+letter-spacing: 0,03em;
+font-style: medium;
+}
+
 }
