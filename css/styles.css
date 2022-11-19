@@ -187,3 +187,10 @@ body {
 }
 
 /*portfolio*/
+
+.buttons{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.6;
+}
