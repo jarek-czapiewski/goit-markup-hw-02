@@ -5,6 +5,7 @@
     --main-gray-color: #757575;
     --black-color: #000000;
     --white-color: #ffffff;
+    --light-color: #f5f4fa;
 }
 
 body {
@@ -56,8 +57,8 @@ body {
 }
 
 .contacts-header a:hover,
-.contacts-header a:focus{
-    color:var(--brand-color);
+.contacts-header a:focus {
+    color: var(--brand-color);
 }
 
 /*hero*/
@@ -127,24 +128,6 @@ body {
     list-style-type: none;
 }
 
-/*footer*/
-.contacts {
-    background-color: var(--background-gray-color);
-}
-
-.link-footer {
-    text-decoration: none;
-    color: var(--white-color);
-    font-family: Roboto;
-    font-style: Regular;
-    font-size: 14px;
-    line-height: 1.71;
-}
-
-.links-footer {
-    list-style-type: none;
-}
-
 .navigation a:hover,
 .navigation a:focus,
 .link-footer:hover,
@@ -154,9 +137,6 @@ body {
 
 /*our-team*/
 
-.team {
-}
-
 .team-people {
     list-style-type: none;
 }
@@ -164,4 +144,46 @@ body {
 .team-people h3 {
     font-weight: 500;
     font-size: 16px;
+    letter-spacing: 0, 03em;
 }
+
+.team-people span {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--main-gray-color);
+    letter-spacing: 0, 03em;
+}
+
+.team-people figure {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team {
+    background-color: var(--light-color);
+}
+
+/*footer*/
+.contacts {
+    background-color: var(--background-gray-color);
+}
+
+.link-footer {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.contact-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.links-footer {
+    list-style-type: none;
+}
+
+/*portfolio*/
