@@ -136,20 +136,20 @@ body {
   list-style-type: none;
 }
 
-.team-people h3 {
+.team-people .programmers {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
 }
 
-.team-people span {
+.team-people .programmers-team {
   font-size: 16px;
   line-height: 1.19;
   color: var(--main-gray-color);
   letter-spacing: 0.03em;
 }
 
-.team-people figure {
+.team-people .team-photos {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -193,7 +193,7 @@ body {
   list-style-type: none;
 }
 
-.buttons-main button {
+.buttons-main .button-list {
   background: var(--light-color);
   border-radius: 4px;
   border-style: none;
@@ -205,8 +205,8 @@ body {
   cursor: pointer;
 }
 
-.buttons-main button:hover,
-.buttons-main button:focus {
+.buttons-main .button-list:hover,
+.buttons-main .button-list:focus {
   color: var(--white-color);
   background-color: var(--brand-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -219,17 +219,17 @@ body {
   list-style-type: none;
 }
 
-.portfolio-projects figure {
+.portfolio-projects .portfolio-images {
   border: 1px solid var(--projects-color);
 }
 
-.portfolio-projects h3 {
+.portfolio-projects .project {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.portfolio-projects span {
+.portfolio-projects .project-item {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
